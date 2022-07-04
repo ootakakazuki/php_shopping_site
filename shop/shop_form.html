@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>カートの中身</title>
+    </head>
+    <body>
+        お客様情報を入力してください<br>
+
+        <form method="post" action="shop_form_check.php">
+            お名前<br>
+            <input type="text" name="onamae"><br>
+            メールアドレス<br>
+            <input type="text" name="email"><br>
+            郵便番号<br>
+            <input type="text" name="postal1">-
+            <input type="text" name="postal2"><br>
+            住所<br>
+            <input type="text" name="address"><br>
+            電話番号<br>
+            <input type="text" name="tel" placeholder="ハイフン不要"><br>
+            <input type="button" onclick="history.back()" value="戻る">
+            <input type="submit" value="OK"><br>
+        </form>
+    </body>
+</html>

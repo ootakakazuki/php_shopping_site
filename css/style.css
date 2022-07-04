@@ -1,0 +1,29 @@
+
+.item-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-container img{
+    position: relative;
+    left: 15%;
+    justify-content: center;
+}
+
+
+input[type=text]{
+    width: 200px;
+}
+
+
+.item{
+    padding: 5%;
+}
+
+/*  cartlook */ 
+
+
+table tr td{
+    min-width: 80px;
+}
+
